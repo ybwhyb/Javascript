@@ -1,3 +1,8 @@
+/**
+* @comment: 파일읽기 처리를 위한 함수
+* @param: input 태그의 onChange=readFile(this);
+* @return: void
+* */
 function readFile(e) {
     console.log(e)
     let file = e.files[0];
